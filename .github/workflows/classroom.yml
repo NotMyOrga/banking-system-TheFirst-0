@@ -95,7 +95,7 @@ jobs:
         uses: classroom-resources/autograding-command-grader@v1
         with:
           test-name: OnlineShopTest - Add to cart and place order
-          command: './gradlew test --tests "shop.OnlineShopTest.testAddToCartAndPlaceOrder"'
+          command: './gradlew test --tests "shop.OnlineShopTest.testAddToCartAndPlaceOrder" --stacktrace'
           timeout: 2
           max-score: 5
 
