@@ -1,5 +1,3 @@
-package bank;
-
 import java.util.*;
 import main.Person;
 
